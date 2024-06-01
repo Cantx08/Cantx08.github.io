@@ -294,34 +294,45 @@ input::placeholder {
 footer {
     height: 97px;
     background-color: #384001;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
 }
 
-.terminos ul {
-    position: absolute;
-    left: 70px;
-    width: 70%;
-    top: 43px;
-}
-
-.terminos ul li {
+#terminos {
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 80px;
     color: #a3a656;
-    margin-right: 80px;
 }
 
-.terminos ul li:hover {
-    color: #ff0;
+#terminos ul {
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 70px;
+    gap: 80px;
+    color: #a3a656;
+}
+
+#terminos ul li:hover {
+    color: #FFFF00;
 }
 
 #redes {
-    font-weight: 400;
-    font-size: 16px;
-    color: #a3a656;
-    float: right;
-    width: 20%;
-    margin-top: 30px;
-    margin-right: 30px;
-    display: flex;
     align-items: center;
+    color: #A3A656;
+    display: flex;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
     justify-content: space-between;
+    margin-right: 30px;
+    width: 20%;
 }
