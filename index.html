@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA - TODOS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+<header>
+    <nav id="menu">
+        <ul>
+            <li>PROMOCIONES</li>
+            <li>FOTOS</li>
+            <li>SERVICIOS</li>
+            <li>MAPA</li>
+            <li>CONTACTO</li>
+        </ul>
+    </nav>
+
+    <div id="perfil">
+        <div class="cuenta">
+            <img src="imagenes/user.png" alt="usuario">
+            <span>Mi cuenta</span>
+        </div>
+        <div class="idioma">
+            <span>ES</span>
+            <img src="imagenes/flag.png" alt="bandera">
+            <img src="imagenes/arrow.png" alt="opciones">
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="paginaPrincipal">
+        <img src="imagenes/main.png" alt="backgroundImage">
+        <p class="tituloPrincipal">SPA - Todos</p>
+        <p class="subtitulo"> Regálate un momento de paz y <br> consiente a tu piel en el mejor lugar</p>
+    </section>
+
+    <section id="reservarCitas">
+        <label for="booking">RESERVA TU CITA:</label>
+        <input type="text" id="booking">
+        <label for="codigo">CÓDIGO PROMOCIONAL:</label>
+        <input type="text" id="codigo" placeholder="CODIGO">
+    </section>
+
+    <section id="servicios">
+        <div class="tipoDeMasaje">
+            <p class="tituloMasaje">Masaje de pies</p>
+            <img src="imagenes/pies.png" alt="Masaje de pies">
+            <p class="descripcion">Esta es una descripción de la opción en cuestión.....</p>
+            <p class="precio">$65</p>
+            <a href="">RESERVAR</a>
+        </div>
+
+        <div class="tipoDeMasaje" id="masaje">
+            <p class="tituloMasaje">Masaje relajante</p>
+            <img src="imagenes/relajante.png" alt="Masaje relajante">
+            <p class="descripcion">Esta es una descripción de la opción en cuestión .....</p>
+            <p class="precio">$60</p>
+            <a href="">RESERVAR</a>
+        </div>
+
+        <div class="tipoDeMasaje">
+            <p class="tituloMasaje">Masaje con bambú</p>
+            <img src="imagenes/bambu.png" alt="Masaje con bambú">
+            <p class="descripcion">Esta es una descripción de la opción en cuestión.....</p>
+            <p class="precio">$58</p>
+            <a href="">RESERVAR</a>
+        </div>
+    </section>
+
+    <section id="planes">
+        <h2>Hazte socio y prueba nuestros beneficios</h2>
+        <div class="plan">
+            <div class="bordeLogo">
+                <img src="imagenes/gold.png" alt="Gold">
+            </div>
+            <h3>GOLD</h3>
+            <a href="">VER CONDICIONES</a>
+            <div class="beneficios">
+                <ul>
+                    <li>Gimnasio</li>
+                    <li>Piscina</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="plan" id="tipoPlan">
+            <div class="bordeLogo">
+                <img src="imagenes/premium.png" alt="Premium">
+            </div>
+            <h3>PREMIUM</h3>
+            <a href="">VER CONDICIONES</a>
+            <div class="beneficios">
+                <ul>
+                    <li>Gimnasio</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="plan">
+            <div class="bordeLogo">
+                <img src="imagenes/plate.png" alt="Plate">
+            </div>
+            <h3>PLATE</h3>
+            <a href="">VER CONDICIONES</a>
+            <div class="beneficios">
+                <ul>
+                    <li>Tratamientos faciales</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <nav class="terminos">
+        <ul>
+            <li><a href="">POLÍTICAS DE COOKIES</a></li>
+            <li><a href="">AVISO LEGAL</a></li>
+            <li><a href="">PROTECCIÓN DE DATOS</a></li>
+            <li><a href="">MAPA DEL SITIO</a></li>
+        </ul>
+    </nav>
+    <div id="redes">
+        <p>SÍGUENOS EN</p>
+        <img src="imagenes/rs_facebook.png" alt="Facebook">
+        <img src="imagenes/rs_twitter.png" alt="Twitter">
+        <img src="imagenes/rs_youtube.png" alt="Youtube">
+    </div>
+</footer>
+</body>
+</html>
